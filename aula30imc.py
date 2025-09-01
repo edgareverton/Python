@@ -1,6 +1,14 @@
-nome = 'Edgar Everton'
-peso = 78
-altura = 1.64
-imc = peso / altura ** 2
-linha1 = f'O IMC de {nome} é {imc:.2f} é seu peso é {peso} e a altura é {altura} '
-print(linha1 )
+#nome = 'Edgar Everton'
+#peso = 78
+#altura = 1.64
+#imc = peso / altura ** 2
+#linha1 = f'O IMC de {nome} é {imc:.2f} é seu peso é {peso} e a altura é {altura} '
+#print(linha1 )
+
+a = 'aaaa'
+b = 'bbbb'
+c = 1.1
+
+string = '{} {} {:.2f}'
+formato = string.format(a, b, c)
+print(formato)
