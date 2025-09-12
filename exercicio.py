@@ -16,6 +16,6 @@ Se nada for digitado em nome ou idade:
 
 nome = input('Digite seu nome:')
 idade = input('Digite sua idade:')
-if nome == True and idade == int:
+if nome and idade:
     print(f'Seu nome é {nome}')
     print(nome[::-1])
