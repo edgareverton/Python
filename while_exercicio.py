@@ -1,10 +1,6 @@
 """
 Iterando strings com while
 """
-#       012345678910
-# nome = 'Luiz Otávio'  # Iteráveis
-#      1110987654321
-
 
 nome = 'Edgar Everton'  # Iteráveis
 
