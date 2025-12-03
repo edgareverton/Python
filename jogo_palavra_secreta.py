@@ -13,3 +13,4 @@ while True:
         letras_acertadas += letra_digitada
 
     print(letras_acertadas)
+    break
