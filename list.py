@@ -6,7 +6,9 @@
 
 #exercicio 2
 lista = [120, 30, 45, 50, 100]
-del lista[2]
-lista[3] = 500
+#del lista[2]
+#lista[3] = 500
 lista.append(600)
+lista.insert(1, 24)
+
 print(lista)
