@@ -14,3 +14,22 @@
 # # print(lista)
 
 #exercicio 3
+# lista_a = [1,2,3]
+# lista_b = [4,5,6]
+# lista_r = 'jfgh'
+# #lista_c = lista_a + lista_b
+# #lista_p = lista_a.extend(lista_r)
+# lista_a.extend(lista_r)
+# print(lista_a)
+
+#exercicio 4
+#exiba os índices da lista
+# 0 Maria
+# 1 Helena
+# 2 Luiz
+
+lista = ['Maria', 'Helena', 'Luíz']
+indices = range(len(lista))
+
+for indice in indices:
+    print(indice, lista[indice])
