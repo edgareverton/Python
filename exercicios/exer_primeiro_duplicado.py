@@ -35,9 +35,7 @@ def encontra_primeiro_duplicado(lista_de_inteiros):
             primeiro_duplicado = numero
             break
         numeros_checados.add(numero)
-
-    print()
-    print()
+    return primeiro_duplicado
 
 for lista in lista_de_listas_de_inteiros:
-    encontra_primeiro_duplicado(lista)
+    print(lista, encontra_primeiro_duplicado(lista))
